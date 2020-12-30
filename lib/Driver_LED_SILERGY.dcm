@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP SY7200A
+D Constant current LED driver, step-down
+K LED Driver
+F https://datasheet.lcsc.com/szlcsc/Silergy-Corp-SY7200AABC_C107309.pdf
+$ENDCMP
+#
+#End Doc Library

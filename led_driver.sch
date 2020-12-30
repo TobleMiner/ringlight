@@ -1,0 +1,244 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 3 3
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Driver_LED_SILERGY:SY7200A U?
+U 1 1 5FED48D9
+P 5900 3450
+AR Path="/5FED48D9" Ref="U?"  Part="1" 
+AR Path="/5FED3853/5FED48D9" Ref="U1"  Part="1" 
+AR Path="/5FED5055/5FED48D9" Ref="U2"  Part="1" 
+F 0 "U2" H 5700 3750 50  0000 C CNN
+F 1 "SY7200A" H 6100 3750 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-6" H 5900 3450 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Silergy-Corp-SY7200AABC_C107309.pdf" H 5900 3450 50  0001 C CNN
+F 4 "C107309" H 5900 3450 50  0001 C CNN "LCSC"
+	1    5900 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Schottky D?
+U 1 1 5FED48E0
+P 6550 3050
+AR Path="/5FED48E0" Ref="D?"  Part="1" 
+AR Path="/5FED3853/5FED48E0" Ref="D17"  Part="1" 
+AR Path="/5FED5055/5FED48E0" Ref="D18"  Part="1" 
+F 0 "D18" H 6550 2833 50  0000 C CNN
+F 1 "SS210" H 6550 2924 50  0000 C CNN
+F 2 "Diode_SMD:D_SMA" H 6550 3050 50  0001 C CNN
+F 3 "~" H 6550 3050 50  0001 C CNN
+F 4 "C14996" H 6550 3050 50  0001 C CNN "LCSC"
+	1    6550 3050
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:L L?
+U 1 1 5FED48E7
+P 6150 3050
+AR Path="/5FED48E7" Ref="L?"  Part="1" 
+AR Path="/5FED3853/5FED48E7" Ref="L1"  Part="1" 
+AR Path="/5FED5055/5FED48E7" Ref="L2"  Part="1" 
+F 0 "L2" V 6340 3050 50  0000 C CNN
+F 1 "47uH" V 6249 3050 50  0000 C CNN
+F 2 "Inductor_Sunlord:MWSA0603S" H 6150 3050 50  0001 C CNN
+F 3 "~" H 6150 3050 50  0001 C CNN
+F 4 "C408455" V 6150 3050 50  0001 C CNN "LCSC"
+	1    6150 3050
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6300 3400 6350 3400
+Wire Wire Line
+	6350 3400 6350 3050
+Wire Wire Line
+	6350 3050 6300 3050
+Wire Wire Line
+	6400 3050 6350 3050
+Connection ~ 6350 3050
+Wire Wire Line
+	6300 3550 6750 3550
+Wire Wire Line
+	6750 3550 6750 3050
+Wire Wire Line
+	6750 3050 6700 3050
+Wire Wire Line
+	6000 3050 5900 3050
+Wire Wire Line
+	5900 3050 5900 3100
+$Comp
+L Device:R R?
+U 1 1 5FED48F8
+P 7150 3900
+AR Path="/5FED48F8" Ref="R?"  Part="1" 
+AR Path="/5FED3853/5FED48F8" Ref="R1"  Part="1" 
+AR Path="/5FED5055/5FED48F8" Ref="R2"  Part="1" 
+F 0 "R2" V 6943 3900 50  0000 C CNN
+F 1 "2.4R" V 7034 3900 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 7080 3900 50  0001 C CNN
+F 3 "~" H 7150 3900 50  0001 C CNN
+F 4 "C17528" H 7150 3900 50  0001 C CNN "LCSC"
+	1    7150 3900
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5FED48FF
+P 6950 3300
+AR Path="/5FED48FF" Ref="C?"  Part="1" 
+AR Path="/5FED3853/5FED48FF" Ref="C2"  Part="1" 
+AR Path="/5FED5055/5FED48FF" Ref="C4"  Part="1" 
+F 0 "C4" H 7065 3346 50  0000 L CNN
+F 1 "4.7uF" H 7065 3255 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 6988 3150 50  0001 C CNN
+F 3 "~" H 6950 3300 50  0001 C CNN
+F 4 "C29823" H 6950 3300 50  0001 C CNN "LCSC"
+	1    6950 3300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6950 3150 6950 3050
+Wire Wire Line
+	6950 3050 6750 3050
+Connection ~ 6750 3050
+$Comp
+L power:GND #PWR?
+U 1 1 5FED4908
+P 5900 3950
+AR Path="/5FED4908" Ref="#PWR?"  Part="1" 
+AR Path="/5FED3853/5FED4908" Ref="#PWR0101"  Part="1" 
+AR Path="/5FED5055/5FED4908" Ref="#PWR0104"  Part="1" 
+F 0 "#PWR0104" H 5900 3700 50  0001 C CNN
+F 1 "GND" H 5905 3777 50  0000 C CNN
+F 2 "" H 5900 3950 50  0001 C CNN
+F 3 "" H 5900 3950 50  0001 C CNN
+	1    5900 3950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5900 3950 5900 3900
+Wire Wire Line
+	5900 3900 6950 3900
+Wire Wire Line
+	6950 3900 6950 3450
+Connection ~ 5900 3900
+Wire Wire Line
+	5900 3900 5900 3850
+Wire Wire Line
+	5500 3550 5400 3550
+Wire Wire Line
+	5400 3550 5400 4200
+Wire Wire Line
+	5400 4200 7350 4200
+Wire Wire Line
+	7000 3900 6950 3900
+Connection ~ 6950 3900
+Wire Wire Line
+	7350 4200 7350 3900
+Wire Wire Line
+	7350 3900 7300 3900
+$Comp
+L Device:C C?
+U 1 1 5FED491B
+P 5000 3650
+AR Path="/5FED491B" Ref="C?"  Part="1" 
+AR Path="/5FED3853/5FED491B" Ref="C1"  Part="1" 
+AR Path="/5FED5055/5FED491B" Ref="C3"  Part="1" 
+F 0 "C3" H 5115 3696 50  0000 L CNN
+F 1 "10uF" H 5115 3605 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 5038 3500 50  0001 C CNN
+F 3 "~" H 5000 3650 50  0001 C CNN
+F 4 "C15850" H 5000 3650 50  0001 C CNN "LCSC"
+	1    5000 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5FED4921
+P 5000 3950
+AR Path="/5FED4921" Ref="#PWR?"  Part="1" 
+AR Path="/5FED3853/5FED4921" Ref="#PWR0102"  Part="1" 
+AR Path="/5FED5055/5FED4921" Ref="#PWR0105"  Part="1" 
+F 0 "#PWR0105" H 5000 3700 50  0001 C CNN
+F 1 "GND" H 5005 3777 50  0000 C CNN
+F 2 "" H 5000 3950 50  0001 C CNN
+F 3 "" H 5000 3950 50  0001 C CNN
+	1    5000 3950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5000 3950 5000 3900
+Wire Wire Line
+	5900 3050 5000 3050
+Wire Wire Line
+	5000 3050 5000 3500
+Connection ~ 5900 3050
+Text HLabel 5400 3400 0    50   Input ~ 0
+PWM
+Wire Wire Line
+	5400 3400 5500 3400
+$Comp
+L power:+5V #PWR?
+U 1 1 5FED492D
+P 5900 2950
+AR Path="/5FED492D" Ref="#PWR?"  Part="1" 
+AR Path="/5FED3853/5FED492D" Ref="#PWR0103"  Part="1" 
+AR Path="/5FED5055/5FED492D" Ref="#PWR0106"  Part="1" 
+F 0 "#PWR0106" H 5900 2800 50  0001 C CNN
+F 1 "+5V" H 5915 3123 50  0000 C CNN
+F 2 "" H 5900 2950 50  0001 C CNN
+F 3 "" H 5900 2950 50  0001 C CNN
+	1    5900 2950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5900 2950 5900 3050
+Text HLabel 7400 3050 2    50   Output ~ 0
+LED+
+Wire Wire Line
+	7400 3050 6950 3050
+Connection ~ 6950 3050
+Text HLabel 7400 3900 2    50   Output ~ 0
+LED-
+Wire Wire Line
+	7400 3900 7350 3900
+Connection ~ 7350 3900
+$Comp
+L Device:C C?
+U 1 1 5FF331F8
+P 4750 3650
+AR Path="/5FF331F8" Ref="C?"  Part="1" 
+AR Path="/5FED3853/5FF331F8" Ref="C8"  Part="1" 
+AR Path="/5FED5055/5FF331F8" Ref="C9"  Part="1" 
+F 0 "C9" H 4865 3696 50  0000 L CNN
+F 1 "47uF" H 4865 3605 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 4788 3500 50  0001 C CNN
+F 3 "~" H 4750 3650 50  0001 C CNN
+F 4 "C96123" H 4750 3650 50  0001 C CNN "LCSC"
+	1    4750 3650
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5000 3900 4750 3900
+Wire Wire Line
+	4750 3900 4750 3800
+Connection ~ 5000 3900
+Wire Wire Line
+	5000 3900 5000 3800
+Wire Wire Line
+	4750 3500 4750 3050
+Wire Wire Line
+	4750 3050 5000 3050
+Connection ~ 5000 3050
+$EndSCHEMATC

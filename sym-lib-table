@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name Driver_LED_SILERGY)(type Legacy)(uri ${KIPRJMOD}/lib/Driver_LED_SILERGY.lib)(options "")(descr ""))
+  (lib (name Connector_TagConnect)(type Legacy)(uri ${KIPRJMOD}/lib/Connector_TagConnect.lib)(options "")(descr ""))
+)

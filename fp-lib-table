@@ -1,0 +1,6 @@
+(fp_lib_table
+  (lib (name LED_SMD_HONGLITRONIC)(type KiCad)(uri ${KIPRJMOD}/lib/LED_SMD_HONGLITRONIC.pretty)(options "")(descr ""))
+  (lib (name Inductor_Sunlord)(type KiCad)(uri ${KIPRJMOD}/lib/Inductor_Sunlord.pretty)(options "")(descr ""))
+  (lib (name XKB_switch)(type KiCad)(uri ${KIPRJMOD}/lib/XKB_switch.pretty)(options "")(descr ""))
+  (lib (name Icons)(type KiCad)(uri ${KIPRJMOD}/lib/Icons.pretty)(options "")(descr ""))
+)
