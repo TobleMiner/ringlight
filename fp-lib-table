@@ -3,4 +3,5 @@
   (lib (name Inductor_Sunlord)(type KiCad)(uri ${KIPRJMOD}/lib/Inductor_Sunlord.pretty)(options "")(descr ""))
   (lib (name XKB_switch)(type KiCad)(uri ${KIPRJMOD}/lib/XKB_switch.pretty)(options "")(descr ""))
   (lib (name Icons)(type KiCad)(uri ${KIPRJMOD}/lib/Icons.pretty)(options "")(descr ""))
+  (lib (name ToolingHole)(type KiCad)(uri ${KIPRJMOD}/lib/ToolingHole.pretty)(options "")(descr ""))
 )
