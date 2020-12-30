@@ -998,4 +998,26 @@ F 3 "~" H 7850 5750 50  0001 C CNN
 	1    7850 5750
 	1    0    0    -1  
 $EndComp
+$Comp
+L Mechanical:MountingHole H?
+U 1 1 60065CA3
+P 9950 5000
+F 0 "H?" H 10050 5046 50  0000 L CNN
+F 1 "ToolingHole" H 10050 4955 50  0000 L CNN
+F 2 "ToolingHole:ToolingHole_JLCSMT" H 9950 5000 50  0001 C CNN
+F 3 "~" H 9950 5000 50  0001 C CNN
+	1    9950 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H?
+U 1 1 600666BA
+P 9950 5250
+F 0 "H?" H 10050 5296 50  0000 L CNN
+F 1 "ToolingHole" H 10050 5205 50  0000 L CNN
+F 2 "ToolingHole:ToolingHole_JLCSMT" H 9950 5250 50  0001 C CNN
+F 3 "~" H 9950 5250 50  0001 C CNN
+	1    9950 5250
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

@@ -4,10 +4,10 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 3
-Title ""
-Date ""
-Rev ""
-Comp ""
+Title "ring light"
+Date "2020-12-30"
+Rev "A"
+Comp "Tobias Schramm"
 Comment1 ""
 Comment2 ""
 Comment3 ""
@@ -999,10 +999,10 @@ F 3 "~" H 7850 5750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole H?
+L Mechanical:MountingHole H5
 U 1 1 60065CA3
 P 9950 5000
-F 0 "H?" H 10050 5046 50  0000 L CNN
+F 0 "H5" H 10050 5046 50  0000 L CNN
 F 1 "ToolingHole" H 10050 4955 50  0000 L CNN
 F 2 "ToolingHole:ToolingHole_JLCSMT" H 9950 5000 50  0001 C CNN
 F 3 "~" H 9950 5000 50  0001 C CNN
@@ -1010,10 +1010,10 @@ F 3 "~" H 9950 5000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole H?
+L Mechanical:MountingHole H6
 U 1 1 600666BA
 P 9950 5250
-F 0 "H?" H 10050 5296 50  0000 L CNN
+F 0 "H6" H 10050 5296 50  0000 L CNN
 F 1 "ToolingHole" H 10050 5205 50  0000 L CNN
 F 2 "ToolingHole:ToolingHole_JLCSMT" H 9950 5250 50  0001 C CNN
 F 3 "~" H 9950 5250 50  0001 C CNN
