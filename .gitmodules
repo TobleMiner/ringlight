@@ -1,0 +1,3 @@
+[submodule "ringlight-firmware"]
+	path = ringlight-firmware
+	url = https://github.com/TobleMiner/ringlight-firmware
